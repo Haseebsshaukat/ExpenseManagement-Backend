@@ -1,12 +1,30 @@
-# Ignore Python virtual environment
+# Python
 .venv/
-
-# Ignore environment variable files
-.env
-.env.*
 __pycache__
 *.pyc
 *.pyo
 *.pyd
 *.db
 *.sqlite3
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+dist/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs and IDE files
+logs
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# OS generated files
+desktop.ini
